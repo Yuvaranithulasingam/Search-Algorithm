@@ -23,8 +23,7 @@ def linearSearch(array,n,k):
 for i in range(0,n):
 if(array[i]==k ):
 return i
-return -1
-    
+return -1   
 array = eval(input())
 k=eval(input())
 n= len(array)
@@ -85,7 +84,13 @@ else:
 print(arr)
 print("Element found at index: ", result)
 ```
-## Sample Input and Output
+/*
+Program to find a linear and binary search of a matrix.
+
+Developed by: Yuvarani T
+
+RegisterNumber: 22009033
+##  Output
 
 ![RESULT 1](https://user-images.githubusercontent.com/121418522/212918861-862a9aec-616a-414b-8604-fdb7e8ba114b.png)
 
